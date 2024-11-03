@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+.homePage{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+    /* padding: 10px 10px; */
+    /* height: 100%; */
+}
+

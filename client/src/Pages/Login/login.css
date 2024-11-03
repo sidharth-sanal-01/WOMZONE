@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Nunito+Sans:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
+.loginWrapper {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://i.pinimg.com/originals/c8/23/c2/c823c2726385cf0f569d3aa6009b3195.jpg");
+    /* background-image: url("https://i.pinimg.com/originals/c8/23/c2/c823c2726385cf0f569d3aa6009b3195.jpg"); */
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginMain {
+    /* background-color: #121212; */
+    background-color: #fff;
+    /* background-image: url("https://www.transparenttextures.com/patterns/arabesque.png"); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+    height: 450px;
+    /* border-radius: 16px; */
+    padding: 30px 30px 30px;
+}
+
+
+.signUpMain {
+    /* background-color: #121212; */
+    background-color: #fff;
+    /* background-image: url("https://www.transparenttextures.com/patterns/arabesque.png"); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    /* border-radius: 16px; */
+    padding: 30px 30px 30px;
+}
+
+
+
+.signUpMain h1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Crete Round', serif;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: 2.5px;
+    margin: 0 0 20px 0;
+    background-color: #2e8dc0;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.signUpMain input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    transition: ease-in 0.1s;
+    width: 100%;
+    margin-bottom: 30px;
+    /* color: #fff; */
+}
+
+.signUpMain input:focus {
+    border-bottom: 3px solid #2e8dc0;
+
+}
+
+
+.loginMain h1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Crete Round', serif;
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: 2.5px;
+    margin: 0 0 20px 0;
+    background-color: #2e8dc0;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.loginMain input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    transition: ease-in 0.1s;
+    width: 100%;
+    margin-bottom: 30px;
+    /* color: #fff; */
+}
+
+.loginMain input:focus {
+    border-bottom: 3px solid #2e8dc0;
+}
+
+.loginMain :nth-last-child(3){
+    margin-bottom: 15px;
+}
+
+.signUpMain :nth-child(4) {
+    margin-bottom: 18px;
+}
+
+
+.signUp {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    cursor: pointer;
+    color: #2e8dc0;
+    /* color: #fff; */
+    margin-top: 5px;
+}
+
+.buttonLoginAndRegister {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e8dc0;
+    outline: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18.5px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 430px) {
+    .loginWrapper {
+        background-image: url("https://i.pinimg.com/originals/4b/da/02/4bda027a6f6f9e262e7439f6ab442550.jpg");
+        background-color: rgba(0, 0, 0, 0.8);
+
+
+    }
+
+    .loginMain {
+        height: 48%;
+        width: 80%;
+        padding: 20px;
+        /* border-radius: 15px; */
+    }
+
+    .loginMain h1 {
+        font-size: 27.5px;
+        width: 100%;
+        margin-bottom: 30px !important;
+        height: 50px;
+    }
+
+    .signUpMain {
+        height: 70%;
+        width: 80%;
+        text-align: right;
+        /* border-radius: 15px; */
+    }
+
+    .signUpMain h1 {
+        font-size: 27.5px;
+        width: 100%;
+        height: 50px;
+    }
+
+
+}

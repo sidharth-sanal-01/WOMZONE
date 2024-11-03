@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Nunito+Sans:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
+.newsLetterWrap {
+    /* display: flex; */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fcf5de;
+
+}
+
+.newsLetterTop{
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.newsLetterTop h1,p{
+    margin: 0;
+}
+
+.newsLetterTop h1{
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.newsLetterBottom{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.newsLetterBottom input{
+    font-size: 20px;
+    width: 500px;
+    height: 60px;
+    outline: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+
+
+}
+
+.newsLetterBottom button{
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: #35D0BA;
+    cursor: pointer;
+}
+
+.sendIcon{
+    font-size: 30px !important;
+    color: #fff !important;
+}
+@media screen and (max-width: 430px) {
+    .newsLetterWrap{
+        display: none;
+    }
+}

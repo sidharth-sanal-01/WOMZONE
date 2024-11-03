@@ -1,0 +1,131 @@
+.categoriesPageWrapper {
+    text-align: center;
+    /* height: 100vh; */
+    font-family: "Nunito", sans-serif;
+}
+
+.categoriesTop {
+    /* margin: 10px; */
+    padding: 0 20px;
+}
+
+.pageHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageHeading h3 {
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: bold;
+    letter-spacing: 3px;
+    margin: 25px 0 20px;
+}
+
+
+
+
+.filterSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filterLeft {
+    display: flex;
+    align-items: center;
+}
+
+.filterLeft span {
+    font-size: 21.5px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.filterRight {
+    display: flex;
+    align-items: center;
+}
+
+.filterRight span {
+    font-size: 21.5px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+.menuWrapper {
+    margin-left: 20px !important;
+    /* border: 1px solid black !important; */
+    outline: none !important;
+}
+
+#dropdown-basic {
+    border-radius: 0;
+    box-shadow: none;
+    /* border: 1px solid #000 !important; */
+}
+
+.menu {
+    min-width: 50px !important;
+    color: #fff !important;
+    background-color: black;
+
+}
+
+.Menuitem {
+    color: #fff !important;
+}
+
+
+@media screen and (max-width: 430px) {
+
+    .categoriesTop {
+        padding: 0 15px;
+    }
+
+    .pageHeading h3 {
+        padding: 14px 20px;
+    }
+
+    .filterLeft span {
+        display: none;
+    }
+
+    .filterRight span {
+        display: none;
+    }
+
+    .filterSection {
+        justify-content: space-between;
+    }
+
+
+    #dropdown-basic {
+        border-radius: 0;
+        border: none !important;
+        outline: none !important;
+    }
+
+    .menuWrapper{
+        border: none !important;
+        outline: none !important;
+    }
+
+
+    .filterLeft .menuWrapper {
+        margin-left: 0 !important;
+        margin-right: 10px !important;
+    }
+
+
+
+}

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Nunito+Sans:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+.navbarWrapper {
+    height: 6.43vh;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #2e8dc0;
+    padding: 35px 18px;
+}
+
+#dropdown-basic{
+    border: none;
+    outline: none;
+}
+
+.menuWrapperNavbar{
+    padding-left: 5px;
+    min-width: 20px !important;
+}
+
+
+.menu{
+    min-width: 30px !important;
+}
+.navbarDropdown{
+    background-color: #2e8dc0;
+}
+
+
+.navbarLeft {
+
+    flex: 8;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.navbarLeft button {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+}
+
+.menuItem {
+    font-family: 'Crete Round', serif;
+}
+
+
+.searchArea {
+    position: relative;
+    width: 97%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.searchArea input {
+    width: 90%;
+    /* display: flex; */
+    height: 37px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.searchArea input :focus {
+    border: none;
+    outline: none;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 0;
+    color: #35D0BA !important;
+    font-size: 23px !important;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.navbarCenter {
+    flex: 2;
+    width: 100%;
+   justify-content: space-between;
+    text-align: left;
+    font-family: 'Crete Round', serif;
+   
+}
+
+.navbarCenter h2 {
+    margin:0;
+    /* width: 100%; */
+    text-align: left;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 4px !important;
+}
+
+.navbarRight {
+    width: 100%;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.CartComponent{
+    position: relative;
+}
+
+.badge{
+    width: 17px;
+    height: 17px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -6px;
+    top: -8px;
+}
+
+.navRightComp {
+    /* align-self: center; */
+    /* margin: 0 40px 0 10px; */
+    color: #fff;
+    cursor: pointer;
+}
+
+.cartIcon{
+    color: #fff !;
+}
+
+@media screen and (max-width: 430px) {
+
+    .navbarWrapper{
+        padding: 30px 5px ;
+    }
+
+    .navbarCenter{
+        display: none;
+    }
+
+    .navRightComp{
+        display: none;
+        margin: 0;
+    }
+
+    .CartComponent{
+        display: flex;
+        /* margin-left: 0; */
+    }
+
+    .navbarRight{
+        justify-content: center;
+    }
+
+
+    .navbarLeft{
+        flex:10;
+    }
+
+   
+
+
+    .searchArea {
+        position: relative;
+        justify-content: space-around;
+        width: 100%;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .searchArea input{
+        width: 100%;
+    }
+
+    .searchIcon{
+        position: absolute;
+        right: -6px;
+        background-color: #fff;
+
+    }
+
+    .menuWrapperNavbar{
+        display: none;
+    }
+
+    
+
+    
+
+}

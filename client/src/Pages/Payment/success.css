@@ -1,0 +1,46 @@
+.sucessWrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+}
+
+
+.sucessMain{
+    background-color: #fff;
+    display: flex;
+    height: 50%;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sucessMain button{
+
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: green;
+}
+
+.logoImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImage img{
+    object-fit: contain;
+    height: 120px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.sucessMain h3{
+    margin: 0;
+    text-align: center;
+    padding:10px 50px ;
+}
