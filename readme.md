@@ -1,6 +1,6 @@
-# Social Media App
+# Womzone
 
-Welcome to the **\WOMZONE**! This is a full-stack application where women can shop for Dress, Perfumes and much more, and anyone can also shop for baby dress many other things. The application is mainly focused on women and children who want to spent some money on them
+Welcome to the **WOMZONE**! This is a full-stack application where women can shop for Dress, Perfumes and much more, and anyone can also shop for baby dress many other things. The application is mainly focused on women and children who want to spent some money on them
 
 ---
 
